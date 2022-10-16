@@ -1,0 +1,27 @@
+.footer {
+  margin-bottom: 33px;
+}
+
+.footer__list {
+  margin-bottom: 30px;
+  padding-left: 22px;
+}
+
+.footer__list__item {
+  position: relative;
+}
+
+.footer__list__item:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 13px;
+  left: -18px;
+  width: 12px;
+  height: 1px;
+  background: #000;
+}
+
+.footer__text {
+  margin-bottom: 0;
+}

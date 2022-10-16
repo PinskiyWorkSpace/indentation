@@ -1,0 +1,19 @@
+.dom {
+  padding: 25px 0;
+}
+
+.dom__block {
+  border: 1px solid #000;
+  margin-bottom: 30px;
+  border-left: none;
+}
+
+.img_mb0 {
+  margin-bottom: 0;
+}
+
+.block__text {
+  border-left: 1px solid #000;
+  padding: 15px 30px;
+  color: #5e5e5e;
+}

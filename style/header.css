@@ -1,0 +1,29 @@
+.header {
+  padding: 60px 0 25px;
+}
+
+.header__title {
+  font-weight: 900;
+  font-size: 60px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header .text:last-child {
+  margin-bottom: 50px;
+}
+
+.menu__list {
+  margin: 0;
+  color: #02535F;
+}
+
+.menu__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.menu__link {
+  text-decoration: underline #000;
+  cursor: pointer;
+}
