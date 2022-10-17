@@ -6,8 +6,8 @@
   font-weight: 900;
   font-size: 60px;
   color: #000000;
-  text-align: center;
   margin-bottom: 30px;
+  line-height: 120%;
 }
 
 .header .text:last-child {
@@ -24,6 +24,6 @@
 }
 
 .menu__link {
-  text-decoration: underline #000;
+  border-bottom: 1px solid #000;
   cursor: pointer;
 }

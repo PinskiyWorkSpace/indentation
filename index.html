@@ -36,10 +36,10 @@
             <a class="menu__link" href="#indent">Отступ задается от предыдущего элемента к следующему</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Отступ задается последнему возможному элементу в DOM-дереве</a>
+            <a class="menu__link" href="#dom">Отступ задается последнему возможному элементу в DOM-дереве</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#">Для последнего элемента группы отступ обнуляется</a>
+            <a class="menu__link" href="#last-indent">Для последнего элемента группы отступ обнуляется</a>
           </li>
         </ol>
       </nav>
@@ -95,7 +95,7 @@
       </div>
     </article>
 
-    <article class="dom">
+    <article class="dom" id="dom">
       <div class="container">
         <h2 class="title">Отступ задается последнему возможному элементу в DOM-дереве</h2>
 
@@ -114,7 +114,7 @@
         <figure class="dom__block">
           <img class="img img_mb0" src="image/image_5.jpg" alt="Пример использования margin-bottom">
           <figcaption class="block__text">
-            ВАЖНО: здесь <i>.list-item</i> — последний возможный элемент в котором мы задаём отступ, чтобы разделить
+            <b>ВАЖНО:</b> здесь <i>.list-item</i> — последний возможный элемент в котором мы задаём отступ, чтобы разделить
             списки.
           </figcaption>
         </figure>
@@ -144,8 +144,8 @@
           структурой отступов.
         </p>
       </div>
-    </article>_
-    <article class="last-indent">
+    </article>
+    <article class="last-indent" id="last-indent">
       <div class="container">
         <h2 class="title">Для последнего элемента группы отступ всегда обнуляется</h2>
         <p class="text">
@@ -181,7 +181,7 @@
         <p class="text">
           Советую использовать псевдоклассы :last-child чаще других, например так:
         </p>
-        <img class="img" src="image/image_15.jpg" alt="Пример кода html">
+        <img class="img img_mb0" src="image/image_15.jpg" alt="Пример кода html">
       </div>
     </article>
   </main>
